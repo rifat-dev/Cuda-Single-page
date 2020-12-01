@@ -1,0 +1,118 @@
+@media screen and (max-width: 1200px) {
+    .manue ul {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .manue {
+        display: none;
+    }
+    html {
+        font-size: 57.5%;
+    }
+    .nav {
+        margin-top: 4.0rem;
+    }
+    .mobile-menu span {
+        display: block;
+    }
+    .clint-pic {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .clint-review {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .form {
+        margin: 0 auto;
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    html {
+        font-size: 62.5%;
+    }
+    .hader-content h1 {
+        font-size: 3.0rem;
+    }
+    nav {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hader-content h1 {
+        font-size: 2.0rem;
+    }
+    .hader-content a {
+        text-decoration: none;
+        background-color: #eb7d4b;
+        color: #fff;
+        display: inline-block;
+        padding: 1.0rem 4.0rem;
+        border-color: #c86a40;
+        margin-top: 6.0rem;
+        border-bottom: 0.3rem solid #c86a40;
+        text-transform: uppercase;
+        font-size: 2rem;
+        margin-bottom: 10rem;
+    }
+    .service-contant-box h4 {
+        font-size: 3.0rem;
+    }
+    .service-contant-box p {
+        font-size: 1.4rem;
+    }
+    .service-col {
+        margin-bottom: 6rem;
+    }
+    .team-text-box h1 {
+        font-size: 3.1rem;
+    }
+    .team-col {
+        margin-bottom: 6rem;
+    }
+    .skill-hading-box p {
+        font-size: 1.5rem;
+    }
+    .skill-col {
+        margin-bottom: 6rem;
+    }
+    .portfolio-text-box p {
+        font-size: 1.5rem;
+    }
+    .teste-text-box h2 {
+        font-size: 3.0rem;
+    }
+    .testi-row1 {
+        margin-top: 1rem;
+    }
+    .clint-review h3 {
+        margin-top: 2rem;
+    }
+    .form {
+        margin: 0 auto;
+        width: 80%;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .portfolio-btn button {
+        background-color: #ebc985;
+        font-size: 1.4rem;
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: .5rem;
+        text-transform: uppercase;
+        color: #393939;
+        margin: 0;
+        transition: 0.5s;
+    }
+}
